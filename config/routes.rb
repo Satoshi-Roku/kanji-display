@@ -7,4 +7,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  root "kanjis#index"
+  resources :kanjis, only: [:index, :show]
+
 end

@@ -1,0 +1,9 @@
+<div class="kanji-display" data-controller="kanji settings" data-kanji-id="<%= @kanji.id %>">
+  <aside class="sidebar">
+    <%= render "info", kanji: @kanji %>
+    <%= render "menu" %>
+  </aside>
+  <main data-settings-target="kanjiMain" class="kanji-main">
+    <%= render "show", kanji: @kanji %>
+  </main>
+</div>

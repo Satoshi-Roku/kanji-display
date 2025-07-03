@@ -1,0 +1,19 @@
+.kanji-display { display: flex; height: 100vh; }
+.sidebar {
+  width: 20%;              /* 1/5 des Bildschirms */
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  position: relative;      /* für das Menü unten */
+}
+.kanji-main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;        /* Kanji-Großdarstellung */
+}
+.menu {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
